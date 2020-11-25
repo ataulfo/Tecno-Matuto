@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" type="text/css" href="/CSS/estilop.css" />
+
+</head>
+<body>
+      <!--Quebra de linha--> 
+     <br>
+     <br>
+     <br>
+     <br>
+
+    <div class="container" >
+        <a class="links" id="paracadastro"></a>
+        <a class="links" id="paralogin"></a>
+        <div class="content">
+ 
+     
+      <!--FORMULÁRIO DE CADASTRO-->
+      <div id="cadastro">
+        <form method="post" action="cadastro.php"> 
+          <h1>Cadastro</h1> 
+           
+          <p> 
+            <label for="nome_cad">Nome completo</label>
+            <input id="nome_cad" name="Nome" required="required" type="text" placeholder="nome" maxlength="35"/>
+          </p>
+           
+          <p> 
+            <label for="email_cad">E-mail</label>
+            <input id="email_cad" name="Email" required="required" type="email" placeholder="contato@htmlecsspro.com" maxlength="28"/> 
+          </p>
+           
+          <p> 
+            <label for="senha_cad">Senha</label>
+            <input id="senha_cad" name="Senha" required="required" type="password" placeholder="ex. marta123"maxlength="15">
+          </p>
+           
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>        
+          <p class="link">  
+            Já tem conta?
+            <a href="index.html"> Ir para Login </a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>    
+</body>
+
+</html>
